@@ -64,3 +64,252 @@ body {
     display: block;
     padding: 12px;
 }
+
+.algoritimo_and_formulario {
+    width: 52%;
+    margin: 0 auto 80px;
+    display: flex;
+}
+
+.algoritimo_and_formulario .text {
+    width: 815px;
+    padding-right: 54px;
+}
+
+.algoritimo_and_formulario .text h2 {
+    font-size: 20px;
+    color: #888888;
+    margin-bottom: 30px;
+}
+
+.algoritimo_and_formulario .text p {
+    color: #888888;
+    font-size: 14px;
+}
+
+.algoritimo_and_formulario .form {
+    display: grid;
+}
+
+.algoritimo_and_formulario .form .label {
+    font-size: 16px;
+    color: #888888;
+}
+
+.algoritimo_and_formulario .form .input {
+    border: 1px solid #888888;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 30px;
+}
+
+.algoritimo_and_formulario .form .opcoes {
+    padding: 0px 0 20px 0;
+    color: #888888;
+}
+
+.algoritimo_and_formulario .form .opcoes span {
+    padding: 0 5px 0 5px;
+    font-size: 14px;
+}
+
+.algoritimo_and_formulario .form .btn_enviar {
+    border: 1px solid #888888;
+    color: #888888;
+    width: 340px;
+    height: 39px;
+    background-color: white;
+}
+
+.selecao_especial {
+    width: 52%;
+    margin: 0 auto;
+}
+
+.selecao_especial .sua_selecao {
+   text-align: center;
+}
+
+.selecao_especial .sua_selecao h2 {
+    color: #888888;
+    font-weight: bold;
+    font-size: 18px;
+ }
+
+  .selecao_especial .sua_selecao h2:before{
+    content: ' ';
+    position: absolute;
+    width: 396px;
+    border-top: 2px solid #8888;
+    margin-top: 11px;
+    margin-left: -405px;
+}
+
+.selecao_especial .sua_selecao h2:after{
+    content: ' ';
+    position: absolute;
+    width: 394px;
+    border-top: 2px solid #8888;
+    margin-top: 11px;
+    margin-left: 9px;
+}
+
+.selecao_especial .produtos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.selecao_especial .produtos .produto {
+    width: 201px;
+    height: 350px;
+    display: grid;
+    color: #888888;
+    margin-bottom: 40px;
+}
+
+.selecao_especial  .produtos .produto .imagem {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #888888;
+}
+
+.selecao_especial  .produtos .produto h3 {
+    font-size: 16px;
+}
+
+.selecao_especial .produtos .produto p {
+    font-size: 13px;
+}
+
+.selecao_especial .produtos .produto .valor {
+    font-size: 13px;
+}
+
+.selecao_especial .produtos .produto .valor_promocional {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.selecao_especial .produtos .produto .valor_parcelado {
+    font-size: 13px;
+} 
+
+.selecao_especial .produtos .produto .btn_comprar {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #888888;
+    color: #888888;
+    cursor: pointer;
+    background-color: white;
+}
+
+.selecao_especial .btn {
+    text-align: center;
+}
+
+.selecao_especial .btn .btn_mais_produtos {
+    border: 1px solid #888888;
+    width: 260px;
+    height: 39px;
+    color: #888888;
+    background-color: white;
+}
+
+.compartilhe_com_um_amigo {
+    width: 52%;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+.compartilhe_com_um_amigo .title {
+    text-align: center;
+}
+
+.compartilhe_com_um_amigo .title h2 {
+    color: #888888;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 50px;
+ }
+
+  .compartilhe_com_um_amigo .title h2:before{
+    content: ' ';
+    position: absolute;
+    width: 396px;
+    border-top: 2px solid #8888;
+    margin-top: 11px;
+    margin-left: -405px;
+}
+
+.compartilhe_com_um_amigo .title h2:after{
+    content: ' ';
+    position: absolute;
+    width: 394px;
+    border-top: 2px solid #8888;
+    margin-top: 11px;
+    margin-left: 9px;
+}
+
+.compartilhe_com_um_amigo .title span {
+    color: #888888;
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+.compartilhe_com_um_amigo .form_amigo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.compartilhe_com_um_amigo .form_amigo .input_nome {
+    display: grid;
+}
+
+.compartilhe_com_um_amigo .form_amigo .input_email {
+    display: grid;
+}
+
+.compartilhe_com_um_amigo .form_amigo .input_nome, .input_email .label { 
+    font-size: 16px;
+    color: #888888;
+}
+
+ .compartilhe_com_um_amigo .form_amigo .input_nome .input {
+    border: 1px solid #888888; 
+    width: 340px;
+    height: 30px;
+ }
+
+ .compartilhe_com_um_amigo .form_amigo .input_email .input {
+    border: 1px solid #888888; 
+    width: 340px;
+    height: 30px;
+ }
+
+ .compartilhe_com_um_amigo .btn_form_amigo {
+     text-align: center;
+ }
+
+ .compartilhe_com_um_amigo .btn_form_amigo .input_btn {
+    border: 1px solid #888888; 
+    background-color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    color: #888888;
+    width: 340px;
+    height: 39px;
+ }
+
+ .final {
+    width: 100%;
+    height: 450px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    clip-path: polygon(61% 84%, 100% 81%, 100% 99%, 0 98%, 0 91%);
+}
+
