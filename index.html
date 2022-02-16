@@ -51,17 +51,17 @@
             </p>
         </div>
 
-        <form class="form">
+        <form class="form" id="form">
             <label class="label">Seu nome:</label>
-            <input type="text" class="input" id="inputNome">
+            <input type="text" class="input_form1" id="inputname">
             <label class="label">E-mail:</label>
-            <input type="email" class="input" id="inputEmail">
+            <input type="email" class="input_form1" id="inputEmail">
             <label class="label">CPF:</label>
-            <input type="text" class="input" id="inputCpf">
+            <input type="text" class="input_form1" id="inputCpf">
             <div class="opcoes">
-                <input type="radio" name="opcao" 
-                value="opmasculino"><span>Masculino</span>
-                <input type="radio" name="opcao" value="opfeminino"><span>Feminino</span>
+                <input type="radio" name="opcao" value="masculino" id="inputRadio"> <span>Masculino</span>
+                <input type="radio" name="opcao" value="feminino" id="inputRadio"><span>Feminino</span>
+                <span class="error_input_radio" id="inputRadioError"></span>
             </div>
             <input type="submit" class="btn_enviar" value="Enviar" id="btnEnviar">
         </form> 
@@ -71,95 +71,8 @@
         <div class="sua_selecao">
             <h2>Sua seleção especial</h2>
         </div>
-        <section class="produtos">
-            <div class="produto">
-                <div class="imagem">
-                    
-                </div>
-                <h3>Nome do produto</h3>
-                <p>Descrição do produto um pouco maior, com duas ou três linhas que esplica melhor do que se trata</p>
-                <span class="valor">De R$23,99</span>
-                <span class="valor_promocional">Por: R$19,99</span>
-                <span class="valor_parcelado">ou 2x de R$9,99</span>
-                <button class="btn_comprar">Comprar</button>
-            </div>
-            <div class="produto">
-                <div class="imagem">
-                    
-                </div>
-                <h3>Nome do produto</h3>
-                <p>Descrição do produto um pouco maior, com duas ou três linhas que esplica melhor do que se trata</p>
-                <span class="valor">De R$23,99</span>
-                <span class="valor_promocional">Por: R$19,99</span>
-                <span class="valor_parcelado">ou 2x de R$9,99</span>
-                <button class="btn_comprar">Comprar</button>
-            </div>
-            <div class="produto">
-                <div class="imagem">
-                    
-                </div>
-                <h3>Nome do produto</h3>
-                <p>Descrição do produto um pouco maior, com duas ou três linhas que esplica melhor do que se trata</p>
-                <span class="valor">De R$23,99</span>
-                <span class="valor_promocional">Por: R$19,99</span>
-                <span class="valor_parcelado">ou 2x de R$9,99</span>
-                <button class="btn_comprar">Comprar</button>
-            </div>
-            <div class="produto">
-                <div class="imagem">
-                    
-                </div>
-                <h3>Nome do produto</h3>
-                <p>Descrição do produto um pouco maior, com duas ou três linhas que esplica melhor do que se trata</p>
-                <span class="valor">De R$23,99</span>
-                <span class="valor_promocional">Por: R$19,99</span>
-                <span class="valor_parcelado">ou 2x de R$9,99</span>
-                <button class="btn_comprar">Comprar</button>
-            </div>
-            <div class="produto">
-                <div class="imagem">
-                    
-                </div>
-                <h3>Nome do produto</h3>
-                <p>Descrição do produto um pouco maior, com duas ou três linhas que esplica melhor do que se trata</p>
-                <span class="valor">De R$23,99</span>
-                <span class="valor_promocional">Por: R$19,99</span>
-                <span class="valor_parcelado">ou 2x de R$9,99</span>
-                <button class="btn_comprar">Comprar</button>
-            </div>
-            <div class="produto">
-                <div class="imagem">
-                    
-                </div>
-                <h3>Nome do produto</h3>
-                <p>Descrição do produto um pouco maior, com duas ou três linhas que esplica melhor do que se trata</p>
-                <span class="valor">De R$23,99</span>
-                <span class="valor_promocional">Por: R$19,99</span>
-                <span class="valor_parcelado">ou 2x de R$9,99</span>
-                <button class="btn_comprar">Comprar</button>
-            </div>
-            <div class="produto">
-                <div class="imagem">
-                    
-                </div>
-                <h3>Nome do produto</h3>
-                <p>Descrição do produto um pouco maior, com duas ou três linhas que esplica melhor do que se trata</p>
-                <span class="valor">De R$23,99</span>
-                <span class="valor_promocional">Por: R$19,99</span>
-                <span class="valor_parcelado">ou 2x de R$9,99</span>
-                <button class="btn_comprar">Comprar</button>
-            </div>
-            <div class="produto">
-                <div class="imagem">
-                    
-                </div>
-                <h3>Nome do produto</h3>
-                <p>Descrição do produto um pouco maior, com duas ou três linhas que esplica melhor do que se trata</p>
-                <span class="valor">De R$23,99</span>
-                <span class="valor_promocional">Por: R$19,99</span>
-                <span class="valor_parcelado">ou 2x de R$9,99</span>
-                <button class="btn_comprar">Comprar</button>
-            </div>
+        <section class="produtos" id="produtos">
+            
         </section>
         <div class="btn">
             <button class="btn_mais_produtos">Ainda  mais produtos aqui!</button>
@@ -186,8 +99,11 @@
     </section>
     <section class="final">
         <footer>
-            <p>coded by <a href="">Pedro Vinicius</a></p>
+            <span>Testando suas habilidades em HTML, CSS e JS.</span>
+            <span>linx impulse</span>
+            <p>Coded by <a href="https://github.com/pedroviniciusn">Pedro Vinicius</a></p>
         </footer>
     </section>
+    <script src="/scripts/scripts.js" type="module"></script>
 </body>
 </html>

@@ -8,7 +8,6 @@ body {
 }
 
 .inicio {
-    width: 100%;
     height: 450px;
     background: #707070 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
@@ -96,11 +95,22 @@ body {
     color: #888888;
 }
 
-.algoritimo_and_formulario .form .input {
+.algoritimo_and_formulario .form .input_form1 {
     border: 1px solid #888888;
     margin-bottom: 20px;
     width: 340px;
     height: 30px;
+}
+
+.hidden {
+    border: 1px solid #ff0000;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 30px;
+}
+
+.hidden::placeholder {
+    color: #ff0000;
 }
 
 .algoritimo_and_formulario .form .opcoes {
@@ -111,6 +121,10 @@ body {
 .algoritimo_and_formulario .form .opcoes span {
     padding: 0 5px 0 5px;
     font-size: 14px;
+}
+
+.algoritimo_and_formulario .form .opcoes .error_input_radio {
+    color: #ff0000;
 }
 
 .algoritimo_and_formulario .form .btn_enviar {
@@ -173,7 +187,13 @@ body {
     width: 200px;
     height: 150px;
     border: 1px solid #888888;
+    text-align: center;
 }
+
+.selecao_especial  .produtos .produto .imagem  img {
+    width: 150px;
+}
+
 
 .selecao_especial  .produtos .produto h3 {
     font-size: 16px;
@@ -305,11 +325,25 @@ body {
  }
 
  .final {
-    width: 100%;
-    height: 450px;
+    height: 293px;
     background: #707070 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
-    clip-path: polygon(61% 84%, 100% 81%, 100% 99%, 0 98%, 0 91%);
+    clip-path: polygon(-71% 95%, 100% 0%, 100% 99%, 0 98%, 0 91%);
 }
 
+.final footer {
+    text-align: center;
+    margin-top: 200px;
+    display: grid;
+    color: white;
+    font-size: 16px;
+}
+
+.final footer span {
+    padding-bottom: 10px;
+}
+
+.final footer p a {
+    text-decoration: none;
+}
