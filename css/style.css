@@ -95,6 +95,11 @@ body {
     color: #888888;
 }
 
+.algoritimo_and_formulario .form .error {
+    font-size: 16px;
+    color: #ff0000;
+}
+
 .algoritimo_and_formulario .form .input_form1 {
     border: 1px solid #888888;
     margin-bottom: 20px;
