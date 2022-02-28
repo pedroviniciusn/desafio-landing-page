@@ -75,7 +75,7 @@
             
         </section>
         <div class="btn">
-            <button class="btn_mais_produtos">Ainda  mais produtos aqui!</button>
+            <button class="btn_mais_produtos" id="btn_mais_produtos">Ainda  mais produtos aqui!</button>
         </div>
     </main>
     <section class="compartilhe_com_um_amigo">
@@ -83,19 +83,19 @@
             <h2>Compartilhe a novidade</h2>
             <span>Quer que seus aimgos também ganhem a lista personalizada deles? Preencha agora</span>
         </div>
-        <form class="form_amigo">
+        <form class="form_amigo" id="form2">
             <div class="input_nome">
                 <label class="label">Digite o nome do seu amigo:</label>
-                <input type="text" class="input">
+                <span class="error" id="errorNameAmigo"></span>
+                <input type="text" class="input" id="inputNameAmigo">
             </div>
             <div class="input_email">
                 <label class="label">E-mail:</label>
-                <input type="email" class="input">
+                <span class="error" id="errorEmailAmigo"></span>
+                <input type="email" class="input" id="inputEmailAmigo">
             </div>
+            <input type="submit" value="Enviar agora" class="input_btn">
         </form>
-        <div class="btn_form_amigo">
-            <input type="button" value="Enviar agora" class="input_btn">
-        </div>
     </section>
     <section class="final">
         <footer>

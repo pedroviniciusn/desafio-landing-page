@@ -41,3 +41,31 @@ formulario1.onsubmit = (event) => {
     }
 }   
 
+const formulario2 = document.querySelector('#form2')
+const inputNameAmigo = document.querySelector('#inputNameAmigo')
+const inputEmailAmigo = document.querySelector('#inputEmailAmigo')
+const errorNameAmigo = document.querySelector('#errorNameAmigo')
+const errorEmailAmigo = document.querySelector('#errorEmailAmigo')
+
+formulario2.onsubmit = (event) => {
+    event.preventDefault()
+    if(document.forms[1], inputNameAmigo.value == 0){
+        inputNameAmigo.classList.add('hidden')
+        inputNameAmigo.classList.remove('input')
+        errorNameAmigo.innerHTML = 'por favor digite um nome'
+    } else  {
+        inputNameAmigo.classList.add('input')
+        inputNameAmigo.classList.remove('hidden')
+        errorNameAmigo.innerHTML = ''
+    }
+    if(document.forms[1], inputEmailAmigo.value == 0){
+        inputEmailAmigo.classList.add('hidden')
+        inputEmailAmigo.classList.remove('input')
+        errorEmailAmigo.innerHTML = 'por favor digite um email'
+    } else  {
+        inputEmailAmigo.classList.add('input')
+        inputEmailAmigo.classList.remove('hidden')
+        errorEmailAmigo.innerHTML = ''
+    }}
+
+

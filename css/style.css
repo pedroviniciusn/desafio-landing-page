@@ -12,7 +12,7 @@ body {
     background: #707070 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
-    clip-path: polygon(-140% 0%, 100% 0%, 100% 100%, 155% 115%);
+    clip-path: polygon(-275% 0%, 100% 0%, 100% 100%, 155% 92%);
 }
 
 .inicio .title {
@@ -95,7 +95,7 @@ body {
     color: #888888;
 }
 
-.algoritimo_and_formulario .form .error {
+.error {
     font-size: 16px;
     color: #ff0000;
 }
@@ -287,6 +287,7 @@ body {
 .compartilhe_com_um_amigo .form_amigo {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 40px;
 }
 
@@ -315,11 +316,7 @@ body {
     height: 30px;
  }
 
- .compartilhe_com_um_amigo .btn_form_amigo {
-     text-align: center;
- }
-
- .compartilhe_com_um_amigo .btn_form_amigo .input_btn {
+ .compartilhe_com_um_amigo .input_btn {
     border: 1px solid #888888; 
     background-color: white;
     font-size: 16px;
@@ -334,7 +331,7 @@ body {
     background: #707070 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
-    clip-path: polygon(-71% 95%, 100% 0%, 100% 99%, 0 98%, 0 91%);
+    clip-path: polygon(-71% 95%, 100% 0%, 100% 100%, 0 100%, 0 91%);
 }
 
 .final footer {
@@ -351,4 +348,168 @@ body {
 
 .final footer p a {
     text-decoration: none;
+}
+
+@media (max-width: 1880px) {
+
+    .algoritimo_and_formulario {
+        width: 53%;
+        margin: 0 auto 80px;
+        display: flex;
+    }
+    .selecao_especial {
+        width: 53%;
+        margin: 0 auto;
+    }
+    .compartilhe_com_um_amigo {
+        width: 53%;
+        margin: 0 auto;
+        padding-top: 150px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (min-width: 1661px) and (max-width: 1879px) {
+
+    .algoritimo_and_formulario {
+        width: 53%;
+        margin: 0 auto 80px;
+        display: flex;
+    }
+    .selecao_especial {
+        width: 53%;
+        margin: 0 auto;
+    }
+    .compartilhe_com_um_amigo {
+        width: 53%;
+        margin: 0 auto;
+        padding-top: 150px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 1660px) {
+
+    .algoritimo_and_formulario {
+        width: 60%;
+        margin: 0 auto 80px;
+        display: flex;
+    }
+    .selecao_especial {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .compartilhe_com_um_amigo {
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 150px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .algoritimo_and_formulario {
+        width: 69%;
+        margin: 0 auto 80px;
+        display: flex;
+    }
+
+    .selecao_especial {
+        width: 69%;
+        margin: 0 auto;
+    }
+
+    .compartilhe_com_um_amigo {
+        width: 69%;
+        margin: 0 auto;
+        padding-top: 150px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 420px){
+    body {
+        width: 141vh;
+    }
+    .inicio {  
+        width: 100%;
+        height: 530px;
+        background: #707070 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+        clip-path: polygon(-275% 0%, 100% 0%, 100% 100%, 74% 92%);
+    }
+
+    .inicio .title {
+        color: white;
+        text-align: start;
+        width: 80%;
+        margin-left: 30px;
+    }
+    
+    .inicio .title p {
+        font-size: 30px;
+        margin-top: 69px;
+    }
+    
+    .inicio .title h1 {
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .inicio .title span {
+        font-size: 25px;
+    }
+
+    .inicio .navegacao {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    
+    }
+    
+    .inicio .navegacao ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .inicio .navegacao li {
+        width: 230px;
+        height: 52px;
+        background-color: white;
+        border-radius: 5px;
+        font-size: 19px;
+        margin-right: 20px;
+        margin-left: 20px;
+        opacity: 1;
+        margin-top: 40px;
+    }
+    .inicio .navegacao li a {
+        text-decoration: none;
+        color: #888888;
+        display: block;
+        padding: 14px;
+    }
+    .algoritimo_and_formulario {
+        width: 95%;
+        margin: 0 auto 80px;
+        display: block;
+    }
+    .algoritimo_and_formulario .text {
+       width: 100%;
+    }
+    .algoritimo_and_formulario .text h2 {
+        font-size: 30px;
+        color: #888888;
+        margin-bottom: 30px;
+    }
+    .algoritimo_and_formulario .text p {
+        color: #888888;
+        font-size: 23px;
+    }
 }
