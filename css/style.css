@@ -395,11 +395,11 @@ body {
 @media (max-width: 500px){
     .inicio {  
         width: 100%;
-        height: 475px;
+        height: 450px;
         background: #707070 0% 0% no-repeat padding-box;
         border: 1px solid #707070;
         opacity: 1;
-        clip-path: polygon(-275% 0%, 100% 0%, 100% 100%, 70% 92%);
+        clip-path: polygon(-275% 0%, 100% 0%, 100% 100%, 110% 92%);
     }
 
     .inicio .title {
@@ -412,7 +412,7 @@ body {
     
     .inicio .title p {
         font-size: 20px;
-        margin-top: 69px;
+        margin-top: 40px;
     }
     
     .inicio .title h1 {
@@ -535,7 +535,7 @@ body {
     }
 
     .selecao_especial .produtos .produto .informacoes_produtos {
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .compartilhe_com_um_amigo {
