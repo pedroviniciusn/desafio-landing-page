@@ -1,10 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: helvetica, sans-serif;
+    width: 100%;
 }
 
 .inicio {
@@ -71,7 +73,7 @@ body {
 }
 
 .algoritimo_and_formulario .text {
-    width: 815px;
+    width: 100%;
     padding-right: 54px;
 }
 
@@ -158,7 +160,7 @@ body {
   .selecao_especial .sua_selecao h2:before{
     content: ' ';
     position: absolute;
-    width: 396px;
+    width: 21%;
     border-top: 2px solid #8888;
     margin-top: 11px;
     margin-left: -405px;
@@ -167,7 +169,7 @@ body {
 .selecao_especial .sua_selecao h2:after{
     content: ' ';
     position: absolute;
-    width: 394px;
+    width: 21%;
     border-top: 2px solid #8888;
     margin-top: 11px;
     margin-left: 9px;
@@ -196,32 +198,32 @@ body {
 }
 
 .selecao_especial  .produtos .produto .imagem  img {
-    width: 150px;
+    width: 140px;
 }
 
 
-.selecao_especial  .produtos .produto h3 {
+.selecao_especial  .produtos .produto .informacoes_produtos h3 {
     font-size: 16px;
 }
 
-.selecao_especial .produtos .produto p {
+.selecao_especial .produtos .produto .informacoes_produtos p {
     font-size: 13px;
 }
 
-.selecao_especial .produtos .produto .valor {
+.selecao_especial .produtos .produto .informacoes_produtos .valor {
     font-size: 13px;
 }
 
-.selecao_especial .produtos .produto .valor_promocional {
+.selecao_especial .produtos .produto .informacoes_produtos .valor_promocional {
     font-size: 16px;
     font-weight: bold;
 }
 
-.selecao_especial .produtos .produto .valor_parcelado {
+.selecao_especial .produtos .produto .informacoes_produtos .valor_parcelado {
     font-size: 13px;
 } 
 
-.selecao_especial .produtos .produto .btn_comprar {
+.selecao_especial .produtos .produto .informacoes_produtos .btn_comprar {
     width: 200px;
     height: 30px;
     border: 1px solid #888888;
@@ -263,7 +265,7 @@ body {
   .compartilhe_com_um_amigo .title h2:before{
     content: ' ';
     position: absolute;
-    width: 396px;
+    width: 21%;
     border-top: 2px solid #8888;
     margin-top: 11px;
     margin-left: -405px;
@@ -272,7 +274,7 @@ body {
 .compartilhe_com_um_amigo .title h2:after{
     content: ' ';
     position: absolute;
-    width: 394px;
+    width: 21%;
     border-top: 2px solid #8888;
     margin-top: 11px;
     margin-left: 9px;
@@ -369,44 +371,6 @@ body {
     }
 }
 
-@media (min-width: 1661px) and (max-width: 1879px) {
-
-    .algoritimo_and_formulario {
-        width: 53%;
-        margin: 0 auto 80px;
-        display: flex;
-    }
-    .selecao_especial {
-        width: 53%;
-        margin: 0 auto;
-    }
-    .compartilhe_com_um_amigo {
-        width: 53%;
-        margin: 0 auto;
-        padding-top: 150px;
-        padding-bottom: 70px;
-    }
-}
-
-@media (max-width: 1660px) {
-
-    .algoritimo_and_formulario {
-        width: 60%;
-        margin: 0 auto 80px;
-        display: flex;
-    }
-    .selecao_especial {
-        width: 60%;
-        margin: 0 auto;
-    }
-    .compartilhe_com_um_amigo {
-        width: 60%;
-        margin: 0 auto;
-        padding-top: 150px;
-        padding-bottom: 70px;
-    }
-}
-
 @media (max-width: 1440px) {
 
     .algoritimo_and_formulario {
@@ -428,45 +392,42 @@ body {
     }
 }
 
-@media (max-width: 420px){
-    body {
-        width: 141vh;
-    }
+@media (max-width: 500px){
     .inicio {  
         width: 100%;
-        height: 530px;
+        height: 475px;
         background: #707070 0% 0% no-repeat padding-box;
         border: 1px solid #707070;
         opacity: 1;
-        clip-path: polygon(-275% 0%, 100% 0%, 100% 100%, 74% 92%);
+        clip-path: polygon(-275% 0%, 100% 0%, 100% 100%, 70% 92%);
     }
 
     .inicio .title {
         color: white;
         text-align: start;
-        width: 80%;
-        margin-left: 30px;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 10px;
     }
     
     .inicio .title p {
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 69px;
     }
     
     .inicio .title h1 {
-        font-size: 50px;
+        font-size: 35px;
         font-weight: bold;
         margin-top: 5px;
-        margin-bottom: 20px;
+        margin-bottom: 8px;
     }
-    
     .inicio .title span {
-        font-size: 25px;
+        font-size: 14px;
     }
 
     .inicio .navegacao {
         text-align: center;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     
     }
@@ -479,13 +440,13 @@ body {
     }
     
     .inicio .navegacao li {
-        width: 230px;
-        height: 52px;
+        width: 155px;
+        height: 40px;
         background-color: white;
         border-radius: 5px;
-        font-size: 19px;
-        margin-right: 20px;
-        margin-left: 20px;
+        font-size: 14px;
+        margin-right: 14px;
+        margin-left: 14px;
         opacity: 1;
         margin-top: 40px;
     }
@@ -493,7 +454,7 @@ body {
         text-decoration: none;
         color: #888888;
         display: block;
-        padding: 14px;
+        padding: 11px;
     }
     .algoritimo_and_formulario {
         width: 95%;
@@ -501,15 +462,164 @@ body {
         display: block;
     }
     .algoritimo_and_formulario .text {
-       width: 100%;
+        width: 100%;
+        padding-left: 7px;
+        padding-right: 10px;
     }
     .algoritimo_and_formulario .text h2 {
-        font-size: 30px;
+        font-size: 17px;
         color: #888888;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
     .algoritimo_and_formulario .text p {
         color: #888888;
-        font-size: 23px;
+        font-size: 15px;
     }
-}
+
+    .selecao_especial .sua_selecao h2:before{
+        content: ' ';
+        position: absolute;
+        width: 21%;
+        border-top: 2px solid #8888;
+        margin-top: 11px;
+        margin-left: -89px;
+    }
+    
+    .selecao_especial .sua_selecao h2:after{
+        content: ' ';
+        position: absolute;
+        width: 21%;
+        border-top: 2px solid #8888;
+        margin-top: 11px;
+        margin-left: 9px;
+    }
+
+    .algoritimo_and_formulario .form {
+        font-size: 16px;
+        color: #888888;
+        margin-top: 25px;
+    }
+
+    .algoritimo_and_formulario .form .input_form1 {
+        border: 1px solid #888888;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 30px;
+    }
+    
+    .algoritimo_and_formulario .form .btn_enviar {
+        border: 1px solid #888888;
+        color: #888888;
+        width: 100%;
+        height: 39px;
+        background-color: white;
+    }
+
+    .selecao_especial {
+        width: 94%;
+    }
+
+    .selecao_especial .produtos {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .selecao_especial .produtos .produto {
+        width: 201px;
+        display: grid;
+        color: #888888;
+        margin-bottom: 40px;
+        display: flex;
+        height: 50%;
+    }
+
+    .selecao_especial .produtos .produto .informacoes_produtos {
+        margin-left: 20px;
+    }
+
+    .compartilhe_com_um_amigo {
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 150px;
+        padding-bottom: 0px;
+    }
+
+    .compartilhe_com_um_amigo .title h2 {
+        color: #888888;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .compartilhe_com_um_amigo .title h2:before{
+        content: ' ';
+        position: absolute;
+        width: 21%;
+        border-top: 2px solid #8888;
+        margin-top: 11px;
+        margin-left: -89px;
+    }
+
+    .compartilhe_com_um_amigo .title span {
+        color: #888888;
+        font-size: 13px;
+        padding-top: 30px;
+    }
+
+    .compartilhe_com_um_amigo .form_amigo {
+        display: block;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+        margin-top: 20px;
+    }
+
+    .compartilhe_com_um_amigo .form_amigo .input_nome {
+        font-size: 16px;
+        color: #888888;
+        margin-bottom: 24px;
+    }
+
+
+    .compartilhe_com_um_amigo .form_amigo .input_nome .input {
+        border: 1px solid #888888; 
+        width: 100%;
+        height: 30px;
+    }
+
+    .compartilhe_com_um_amigo .form_amigo .input_email .input {
+        border: 1px solid #888888; 
+        width: 100%;
+        height: 30px;
+    }
+
+    .compartilhe_com_um_amigo .input_btn {
+        border: 1px solid #888888;
+        background-color: white;
+        font-size: 16px;
+        margin-top: 30px;
+        color: #888888;
+        width: 65%;
+        height: 35px;
+        /* margin: 0 auto; */
+        /* margin-left: auto; */
+        margin-left: 60px;
+        border-radius: 0;
+     }
+    
+     .final {
+        height: 187px;
+        background: #707070 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+        clip-path: polygon(-220% 90%, 276% -5%, 100% 107%, 0 104%, 0 100%);
+    }
+    
+    .final footer {
+        text-align: center;
+        margin-top: 100px;
+        display: grid;
+        color: white;
+        font-size: 16px;
+    }
+}   

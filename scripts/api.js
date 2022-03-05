@@ -11,13 +11,14 @@ async function fetchapiprodutos(){
            produto.innerHTML = `<div class="imagem">
            <img src="${item.image}" alt="produto" id="image">
          </div>
+         <div class="informacoes_produtos">
             <h3 id="nome">${item.name}</h3>
             <p id="description">${item.description}</p>
              <span class="valor">De R$${item.oldPrice}</span>
             <span class="valor_promocional">Por: R$${item.price}</span>
             <span class="valor_parcelado">ou ${item.installments.count}x de R$${item.installments.value}</span>
-            <button class="btn_comprar">Comprar</button`
-
+            <button class="btn_comprar">Comprar</button
+        </div>`
             sectionProdutos.appendChild(produto)
            console.log(sectionProdutos)
         }) 
@@ -41,15 +42,15 @@ btnMaisProdutos.onclick = async function fetchApiProdutosPage2(){
           produto.innerHTML = `<div class="imagem">
           <img src="${item.image}" alt="produto" id="image">
         </div>
+        <div class="informacoes_produtos">
            <h3 id="nome">${item.name}</h3>
            <p id="description">${item.description}</p>
             <span class="valor">De R$${item.oldPrice}</span>
            <span class="valor_promocional">Por: R$${item.price}</span>
            <span class="valor_parcelado">ou ${item.installments.count}x de R$${item.installments.value}</span>
-           <button class="btn_comprar">Comprar</button`
-
+           <button class="btn_comprar">Comprar</button
+        </div>`
            sectionProdutos.appendChild(produto)
-          console.log(sectionProdutos)
        }) 
    },)
 }
