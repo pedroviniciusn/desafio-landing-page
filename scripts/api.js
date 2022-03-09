@@ -20,7 +20,6 @@ async function fetchapiprodutos(){
             <button class="btn_comprar">Comprar</button
         </div>`
             sectionProdutos.appendChild(produto)
-           console.log(sectionProdutos)
         }) 
     },)
 }
@@ -51,6 +50,13 @@ btnMaisProdutos.onclick = async function fetchApiProdutosPage2(){
            <button class="btn_comprar">Comprar</button
         </div>`
            sectionProdutos.appendChild(produto)
+ 
+           const answer = produtos.length == 8
+           ? btnMaisProdutos.classList.add('btn_display_none')
+            : ''
+            
+
        }) 
    },)
 }
+

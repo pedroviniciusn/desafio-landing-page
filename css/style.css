@@ -244,6 +244,10 @@ body {
     background-color: white;
 }
 
+.btn_display_none {
+    display: none;
+} 
+
 .compartilhe_com_um_amigo {
     width: 52%;
     margin: 0 auto;
