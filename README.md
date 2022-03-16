@@ -5,13 +5,14 @@
 link do teste: https://github.com/thiagocontaparatestes/testes-vaga-emprego/blob/main/teste-html-css-js.md
 <br>
 link do projeto : https://landing-page-pedrovincius.netlify.app/
-<h3>O projeto ainda não está finalizado, faltando validar alguns inputs e deixar responsivo.</h3>
+<h3>Projeto responsivo só entrar no link e conferir</h3>
 <br>
 <h1>Capturas de tela:</h1>
 
 ![Captura de tela de 2022-02-16 10-47-51](https://user-images.githubusercontent.com/91329679/154285940-7b541a6c-996f-4ed0-b6bf-7db9aa4866ca.png)
 ![Captura de tela de 2022-02-16 10-48-00](https://user-images.githubusercontent.com/91329679/154286084-e6765d63-5d5d-45d6-93b3-8283b64fe085.png)
 ![Captura de tela de 2022-02-16 10-48-06](https://user-images.githubusercontent.com/91329679/154286205-bfeaac0b-a694-4cb5-bf81-e7d81a82d70f.png)
+
 
 <h1>Utilizando o JS para validar campos:</h1>
 
